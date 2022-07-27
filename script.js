@@ -1,2 +1,2 @@
-console.log(12)
-console.log($)
+// console.log($);
+// console.log('modal practice app.js is linked to this index.html');

@@ -1,3 +1,8 @@
 body {
-background-color: green;
+    background-image: url(../portfolio/images/jean-philippe-unsplash.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-color: white;
+    text-align: center
 }
