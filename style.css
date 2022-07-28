@@ -4,5 +4,35 @@ body {
     background-attachment: fixed;
 	background-position: center;
     background-color: white;
-    text-align: center
+    text-align: center;
+}
+
+#myPic {
+    width: 30%;
+    float: left;
+    /* position: absolute; */
+}
+
+#home {
+    text-align: left;
+    color: green; 
+    /* float: right; */
+    display: inline;
+    /* position: absolute; */
+    /* top: 10%;
+    left: 10%;
+    margin-top: 10%;
+    margin-left: 10%; */
+    /* width: 30%; */
+    margin: 10px;
+    padding: 20px;
+    /* border: 6px solid black; */
+    /* height: 256px; */
+}
+
+#bio {
+    width: 250px;
+    height: 100px;
+    /* display: block; */
+    border: 6px solid black;
 }
