@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <!-- FONT Links -->
     <script src="https://kit.fontawesome.com/893d46a45a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <h1>Welcome to my Portfolio!</h1>
     <!-- CSS Links -->
     <link rel="stylesheet" href="style.css">
@@ -13,8 +15,8 @@
     <script src="script.js"></script>
     <title>MITCHELL'S PORTFOLIO</title>
 </head>
-<body id="body">
-    <img src= images/MG-photo.jpg id="myPic">
+<body class="body">
+    <img src= images/MG-photo.jpg id="myPic" >
         <div id="home">
             <h2>My name is Mitchell G and here's a page I built after 2 weeks of "coding bootcamp".
             </h2>
@@ -24,7 +26,7 @@
 			    <h1>FAMILY PHOTOS!</h1>
 			    <div class="family-container">
 				    <div class="previous">
-					    <span class="lnr lnr-chevron-left"></span>
+                        <i class="fa-solid fa-circle-left"></i>
 				    </div>
 				    <div class="family-images">
 					    <img src = "family/pikePlace.PNG" alt = "Pike Place" height="600" />
@@ -32,7 +34,7 @@
                         <img src = "family/mariners2.PNG" alt = "M's Game II" height="600" />
 				    </div>
 				    <div class="next">
-					    <span class="lnr lnr-chevron-right"></span>
+                        <i class="fa-solid fa-circle-right"></i>
 				</div>
 		</div>
         <h2>Text about my Awesome Family goes here.</h2>
@@ -51,18 +53,18 @@
                 PROJECT #4<p>
                 PROJECT #5
             </h2>
-            </div>
+            </div><p>
 <footer id="footer">
-    <div id="links"><h1>
-        LINKEDIN <LINK><i class="fa-brands fa-linkedin"></i></LINK> 
-         .....      
-        GITHUB <LINK><i class="fa-brands fa-github"></i></LINK><p>
-        <i class="fa-solid fa-envelope"></i> mitchell.garrison@gmail.com <p>
-        <button class="button">CHANGE BACKGROUND IMAGE</button>
-    </div></h1>
-    <span class = "tog">
+        <h3><div class="links">get in-contact: </h3><h1><a href="https://www.linkedin.com/in/mrgarrison/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/M-Garrison"><i class="fa-brands fa-github"></i></a><p>
+        </div></h1>
+        <a href="mailto:mitchell.garrison@gmail.com">
+        <i class="fa-solid fa-envelope"></a></i> mitchell.garrison@gmail.com <p>
+        </div>
+        <button id="button">toggle between light and dark modes</button>
+    <!-- <span class = "tog">
         <img src="images/bigSmile.jpg" alt="Big Smile" height="400" />
-        <img src="images/bigLook.jpg" alt="Big Look" height="400" style="display:none" />
+        <img src="images/bigLook.jpg" alt="Big Look" height="400" style="display:none" /> -->
     </span>
 </footer>
 </body>

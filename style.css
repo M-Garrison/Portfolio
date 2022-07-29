@@ -1,5 +1,8 @@
-body {
+.body {
     background-image: url(../portfolio/images/jean-philippe-unsplash.jpg);
+    font-family: 'Arvo', serif;
+    color: black;
+    font-size: 20px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center;
@@ -7,12 +10,16 @@ body {
     text-align: center;
 }
 
-body2 {
-    background-image: url(../portfolio/images/bernard-hermant-unsplash.jpg);
+/* .active */
+.body2 {
+    background-image: url(../portfolio/images/tobias-van-schneider-unsplash.jpg);
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 20px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center;
-    background-color: white;
+    background-color: black;
     text-align: center;
 }
 
@@ -27,7 +34,7 @@ body2 {
 
 #home {
     text-align: left;
-    color: green; 
+    /* color: green;  */
     /* float: right; */
     display: inline;
     /* position: absolute; */
@@ -38,7 +45,7 @@ body2 {
     /* width: 30%; */
     margin: 10px;
     padding: 20px;
-    /* border: 6px solid black; */
+    /* border: 1px solid black; */
     /* height: 256px; */
 }
 
@@ -59,7 +66,7 @@ body2 {
 #biography {
     display: none;
     border: 3px solid black;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .family-container {
@@ -69,7 +76,7 @@ body2 {
 }
 
 .family-images {
-	width: 60%;
+	min-width: 70%;
 	background: grey;
 	padding: 10px;
 	border-radius: 10px;
@@ -81,7 +88,7 @@ body2 {
 }
 
 .family-images img {
-	max-width: 50%;
+	max-width: 70%;
     height: 600px;
 	border-radius: 10px;
 	display: none;
@@ -91,19 +98,34 @@ body2 {
 	display: block;
 }
 
-.lnr {
+.fa-solid {
     align-self: center;
     background: blue;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     text-align: center;
 }
 
-.lnr:hover {
+.fa-solid:hover {
     cursor: pointer;
     background: white;
     box-shadow: 2px 2px blue;
+    color: blue;
+}
+
+.fa-brands {
+    /* cursor: pointer;
+    background: white;
+    box-shadow: 2px 2px blue; */
+    /* display: inline; */
+    color: black;
+}
+
+.fa-brands:hover {
+    /* cursor: pointer;
+    background: white;
+    box-shadow: 2px 2px blue; */
     color: blue;
 }
 
@@ -114,7 +136,7 @@ body2 {
 #resume {
     display: none;
     border: 3px solid black;
-    background-color: white;
+    /* background-color: white; */
 }
 
 #res:hover {
@@ -124,15 +146,15 @@ body2 {
 #projects {
     display: none;
     border: 3px solid black;
-    background-color: white;
+    /* background-color: white; */
 }
 
 #proj:hover {
     color: blue
 }
 
-#links {
-    color: blue;
+.links {
+    display: inline;
 }
 
 .email {
@@ -143,6 +165,10 @@ body2 {
     display: inline;
 }
 
-#links:hover {
-    color: black;
+.footer {
+    display: inline;
 }
+/* 
+#links:hover {
+    color: white;
+} */
