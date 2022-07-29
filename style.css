@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-/* .active */
 .body2 {
     background-image: url(../portfolio/images/tobias-van-schneider-unsplash.jpg);
     font-family: 'Arvo', serif;
@@ -57,7 +56,7 @@
 } */
 
 #bio {
-    float: absolute;
+    /* float: absolute; */
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -133,6 +132,11 @@
     color: blue;
 }
 
+.tog:hover {
+    cursor: pointer;
+    box-shadow: 20px 20px hsl(231, 99%, 49%);
+}
+
 #resume {
     display: none;
     border: 3px solid black;
@@ -153,9 +157,10 @@
     color: blue
 }
 
-.links {
+/* .links {
     display: inline;
-}
+    border: 3px solid black;
+} */
 
 .email {
     display: inline;
@@ -165,9 +170,11 @@
     display: inline;
 }
 
-.footer {
+/* .footer {
     display: inline;
-}
+    border: 20px 20px solid black;
+} */
+
 /* 
 #links:hover {
     color: white;
