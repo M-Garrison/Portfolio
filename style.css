@@ -7,6 +7,15 @@ body {
     text-align: center;
 }
 
+body2 {
+    background-image: url(../portfolio/images/bernard-hermant-unsplash.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-color: white;
+    text-align: center;
+}
+
 #myPic {
     width: 20%;
     /* display: flex;
@@ -39,6 +48,13 @@ body {
     justify-content: center;
     align-items: center;
 } */
+
+#bio {
+    float: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
 
 #biography {
     display: none;
@@ -117,6 +133,14 @@ body {
 
 #links {
     color: blue;
+}
+
+.email {
+    display: inline;
+}
+
+.fa-solid .fa-envelope {
+    display: inline;
 }
 
 #links:hover {

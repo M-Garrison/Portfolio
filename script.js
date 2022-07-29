@@ -28,7 +28,7 @@ $('.next').on('click',()=>{
        } else {currentImgIndex = 0}
 
     $('.family-images').children().eq(currentImgIndex).css('display','block')
-})
+});
 
 $('.previous').on('click',()=>{
     $('.family-images').children().eq(currentImgIndex).css('display','none')
@@ -38,8 +38,8 @@ $('.previous').on('click',()=>{
        } else {currentImgIndex = numOfImages}
 
     $('.family-images').children().eq(currentImgIndex).css('display','block')
-})
-
+});
+// attempt at the button below
 let bg = [
     "images/bernard-hermant-unsplash.jpg",
     "images/jean-philippe-unsplash.jpg"
@@ -49,13 +49,24 @@ let bg = [
 //     body.css = bg.reverse()[0];
 // });
 
-// letCurrentBG = 
-$('.but1').on('click',()=>{
+$('.button').on('click',()=>{
     $('#body').css("background-image", "url(../portfolio/images/bernard-hermant-unsplash.jpg)")
 })
 
+// $('.button').click(function(){
+//     $("body").toggleClass(function(){
+//       return "body2";
+//     });
+//   });
+
+// $('button').click(function(){
+//     $('#body').toggleClass('#body2');
+// });
+
+
+// toggle between photos on click
 $(".tog").click(function(){
     $('img',this).toggle()
-})
+});
 
 });
