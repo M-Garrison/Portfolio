@@ -23,11 +23,16 @@
 }
 
 #myPic {
-    width: 20%;
+    /* width: 30%; */
     /* display: flex;
     justify-content: flex-start;  */
+    max-width:400px;
+    max-height:400px;
+    min-width:100px;
+    min-height:100px;
+    border: 3px solid black;
     float: left;
-    margin: 0 15px 0 0;
+    margin: 0 30px 0 0;
     /* position: absolute; */
 }
 
@@ -35,7 +40,8 @@
     text-align: left;
     /* color: green;  */
     /* float: right; */
-    display: inline;
+    display: inline-flex;
+    flex-wrap: nowrap;
     /* position: absolute; */
     /* top: 10%;
     left: 10%;
@@ -75,7 +81,7 @@
 }
 
 .family-images {
-	min-width: 70%;
+	min-width: 60%;
 	background: grey;
 	padding: 10px;
 	border-radius: 10px;
@@ -87,8 +93,10 @@
 }
 
 .family-images img {
-	max-width: 70%;
-    height: 600px;
+    max-width:828px;
+    max-height:1792px;
+    min-width:100px;
+    min-height:216px;
 	border-radius: 10px;
 	display: none;
 }
