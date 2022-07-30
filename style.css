@@ -178,10 +178,15 @@
     display: inline;
 }
 
-/* .footer {
+.button1 {
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+.footer {
     display: inline;
-    border: 20px 20px solid black;
-} */
+    /* flex-wrap: nowrap; */
+}
 
 /* 
 #links:hover {
