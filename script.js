@@ -1,4 +1,5 @@
 $(() => {
+    
 // hide tab functions
 $("#bio").click(function() {
     $("#biography").fadeToggle();
@@ -10,6 +11,18 @@ $("#res").click(function() {
 
 $("#proj").click(function() {
     $("#projects").fadeToggle();
+});
+
+$("#job1").click(function() {
+    $("#duty1").fadeToggle();
+});
+
+$("#job2").click(function() {
+    $("#duty2").fadeToggle();
+});
+
+$("#job3").click(function() {
+    $("#duty3").fadeToggle();
 });
 
 // family photo carousel buttons

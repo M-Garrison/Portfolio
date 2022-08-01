@@ -8,9 +8,6 @@
 	background-position: center;
     background-color: white;
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     max-width: 80%;
     margin: 0 auto;
 }
@@ -44,69 +41,68 @@
 }
 
 #myPic {
-    /* width: 30%; */
-    /* display: flex;
-    justify-content: flex-start;  */
-    max-width:400px;
-    max-height:400px;
-    min-width:200px;
-    min-height:200px;
-    border: 5px solid black;
+    max-width:500px;
+    max-height:500px;
+    min-width:250px;
+    min-height:250px;
+    border: 15px solid black;
     float: left;
     margin: 0 50px 0 0;
-    /* position: absolute; */
 }
 
 #home {
     text-align: left;
-    /* color: green;  */
-    /* float: right; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    /* position: absolute; */
-    /* top: 10%;
-    left: 10%;
-    margin-top: 10%;
-    margin-left: 10%; */
-    /* width: 30%; */
     margin: 10px;
     padding: 20px;
-    /* max-width: 60%; */
-    /* border: 1px solid black; */
-    /* height: 256px; */
 }
-un {
-    text-decoration-line: underline;
-}
-/* div {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 #bio {
     display: flex;
-    /* float: absolute; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     max-width: 250px;
-    margin: 0 auto;
+    margin: 30px auto;
+}
+
+#duty1 {
+    display: none;
+}
+
+#job1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#duty2 {
+    display: none;
+}
+
+#job2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#duty3 {
+    display: none;
+}
+
+#job3:hover {
+    color: blue;
+    cursor: pointer;
 }
 
 #biography {
     display: none;
-    /* border: 3px solid black; */
-    /* background-color: white; */
 }
 
 #bio:hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 10px 10px blue;
+    box-shadow: 5px 5px blue;
 }
 
 .family-container {
@@ -157,47 +153,49 @@ un {
 }
 
 .fa-brands {
-    /* cursor: pointer;
-    background: white;
-    box-shadow: 2px 2px blue; */
-    /* display: inline; */
     color: black;
 }
 
 .fa-brands:hover {
-    /* cursor: pointer;
-    background: white;
-    box-shadow: 2px 2px blue; */
     color: blue;
 }
 
 .tog:hover {
     cursor: pointer;
-    box-shadow: 10px 10px blue;
+    box-shadow: 5px 5px blue;
 }
 
 #resume {
     display: none;
-    /* border: 3px solid black; */
-    /* background-color: white; */
     max-width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#download {
+    text-align: center;
+    justify-content: center;
+}
+
+#download:hover {
+    color: blue;
 }
 
 #res {
     display: flex;
-    /* float: absolute; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     max-width: 250px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #res:hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 10px 10px blue;
+    box-shadow: 5px 5px blue;
 }
 
 #proj:hover{
@@ -206,19 +204,12 @@ un {
 
 #projects {
     display: none;
-    /* border: 3px solid black; */
     text-align: center;
-    /* max-width: 60%; */
-    /* max-width: 40%; */
-    /* background-color: white; */
-    /* max-width: 200px; */
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #proj {
     display: flex;
-    /* float: absolute; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     max-width: 250px;
@@ -228,29 +219,11 @@ un {
 #proj:hover {
     color: blue;
     cursor: pointer;
-    box-shadow: 10px 10px blue;
-}
-
-.links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 3px solid black; */
-}
-
-#ul1 {
-    /* display: flex; */
-    float: center;
-    /* display: flex; */
-    /* justify-content: space-evenly;
-    align-items: space-evenly; */
-    text-align: center;
+    box-shadow: 5px 5px blue;
 }
 
 #list {
     display: flex;
-    /* float: absolute; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -258,15 +231,15 @@ un {
 
 #list:hover {
     color: blue;
+    cursor: pointer;
 }
-
-/* 
-#links:hover {
-    color: white;
-} */
 
 .email {
     display: inline;
+}
+
+#text {
+    margin: 50px 50px;
 }
 
 .fa-solid .fa-envelope {
@@ -275,10 +248,12 @@ un {
 
 .button1 {
     display: flex;
-    /* flex-wrap: nowrap; */
+}
+
+.tog {
+    margin: 50px 50px;
 }
 
 .footer {
     display: block;
-    /* flex-wrap: nowrap; */
 }
