@@ -8,6 +8,18 @@
 	background-position: center;
     background-color: white;
     text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px){
+    .body {
+        /* text-decoration: underline; */
+        /* width: 90%; */
+    }
 }
 
 .body2 {
@@ -20,6 +32,15 @@
 	background-position: center;
     background-color: black;
     text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px){
+    .body2 {
+        /* text-decoration: underline;  */
+        /* width: 90%; */
+    }
 }
 
 #myPic {
@@ -28,11 +49,11 @@
     justify-content: flex-start;  */
     max-width:400px;
     max-height:400px;
-    min-width:100px;
-    min-height:100px;
-    border: 3px solid black;
+    min-width:200px;
+    min-height:200px;
+    border: 5px solid black;
     float: left;
-    margin: 0 30px 0 0;
+    margin: 0 50px 0 0;
     /* position: absolute; */
 }
 
@@ -40,7 +61,9 @@
     text-align: left;
     /* color: green;  */
     /* float: right; */
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     /* position: absolute; */
     /* top: 10%;
@@ -50,10 +73,13 @@
     /* width: 30%; */
     margin: 10px;
     padding: 20px;
+    /* max-width: 60%; */
     /* border: 1px solid black; */
     /* height: 256px; */
 }
-
+un {
+    text-decoration-line: underline;
+}
 /* div {
     text-align: center;
     display: flex;
@@ -62,16 +88,25 @@
 } */
 
 #bio {
+    display: flex;
     /* float: absolute; */
     /* display: flex; */
     justify-content: center;
     align-items: center;
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 #biography {
     display: none;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     /* background-color: white; */
+}
+
+#bio:hover {
+    color: blue;
+    cursor: pointer;
+    box-shadow: 10px 10px blue;
 }
 
 .family-container {
@@ -136,38 +171,98 @@
     color: blue;
 }
 
-#bio:hover {
-    color: blue;
-}
-
 .tog:hover {
     cursor: pointer;
-    box-shadow: 20px 20px hsl(231, 99%, 49%);
+    box-shadow: 10px 10px blue;
 }
 
 #resume {
     display: none;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     /* background-color: white; */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#res {
+    display: flex;
+    /* float: absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 #res:hover {
+    color: blue;
+    cursor: pointer;
+    box-shadow: 10px 10px blue;
+}
+
+#proj:hover{
     color: blue
 }
 
 #projects {
     display: none;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    text-align: center;
+    /* max-width: 60%; */
+    /* max-width: 40%; */
     /* background-color: white; */
+    /* max-width: 200px; */
+    margin: 0 auto;
+}
+
+#proj {
+    display: flex;
+    /* float: absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 #proj:hover {
-    color: blue
+    color: blue;
+    cursor: pointer;
+    box-shadow: 10px 10px blue;
 }
 
-/* .links {
-    display: inline;
-    border: 3px solid black;
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid black; */
+}
+
+#ul1 {
+    /* display: flex; */
+    float: center;
+    /* display: flex; */
+    /* justify-content: space-evenly;
+    align-items: space-evenly; */
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    /* float: absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#list:hover {
+    color: blue;
+}
+
+/* 
+#links:hover {
+    color: white;
 } */
 
 .email {
@@ -184,11 +279,6 @@
 }
 
 .footer {
-    display: inline;
+    display: block;
     /* flex-wrap: nowrap; */
 }
-
-/* 
-#links:hover {
-    color: white;
-} */
