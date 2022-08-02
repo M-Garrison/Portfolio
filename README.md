@@ -12,9 +12,10 @@ LINK TO LIVE SITE:
 
 INSTALLATION INSTRUCTIONS:
 Open "portfolio/index.html" in a browser.
+In the future I plan on hosting this portfolio on it's own domain.
 
 UNSOLVED PROBLEMS:
-Would like to make one <div> close if another <div> is opened.
+Would like to make one div close if another div is opened.
 
 FUTURE PLANS:    
 Add more projects and links in the future.

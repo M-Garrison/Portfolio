@@ -1,8 +1,8 @@
 .body {
-    background-image: url(../portfolio/images/jean-philippe-unsplash.jpg);
+    /* background-image: url(../portfolio/images/jean-philippe-unsplash.jpg); */
     font-family: 'Arvo', serif;
     color: black;
-    font-size: 20px;
+    font-size: 24px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center;
@@ -13,10 +13,10 @@
 }
 
 .body2 {
-    background-image: url(../portfolio/images/tobias-van-schneider-unsplash.jpg);
+    /* background-image: url(../portfolio/images/tobias-van-schneider-unsplash.jpg); */
     font-family: 'Arvo', serif;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-position: center;
@@ -44,14 +44,14 @@
         margin: 0 10px 0 0;
     }
     #smallText {
-        font-size: 12px;
+        font-size: 14px;
     }
     #download {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .body {
         font-size: 10px;
     }
@@ -59,10 +59,10 @@
         font-size: 10px;
     }
     #smallText {
-        font-size: 9px;
+        font-size: 10px;
     }
     #download {
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 
@@ -99,8 +99,12 @@
     display: none;
 }
 
-#job1:hover {
+#job1 {
     color: blue;
+}
+
+#job1:hover {
+    color: green;
     cursor: pointer;
 }
 
@@ -108,8 +112,12 @@
     display: none;
 }
 
-#job2:hover {
+#job2 {
     color: blue;
+}
+
+#job2:hover {
+    color: green;
     cursor: pointer;
 }
 
@@ -117,8 +125,12 @@
     display: none;
 }
 
-#job3:hover {
+#job3 {
     color: blue;
+}
+
+#job3:hover {
+    color: green;
     cursor: pointer;
 }
 
@@ -180,11 +192,11 @@
 }
 
 .fa-brands {
-    color: black;
+    color: blue
 }
 
 .fa-brands:hover {
-    color: blue;
+    color: green
 }
 
 .tog:hover {
