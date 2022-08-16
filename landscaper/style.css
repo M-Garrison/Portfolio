@@ -1,6 +1,8 @@
 body {
     text-align: center;
-    background: green;
+    background-image: url(pics/sm-unsplash.jpg); 
+    background-color: green;
+    background-size: 100%;
     font-family: 'Edu SA Beginner', cursive;
     max-width: 75%;
     text-align: center;
