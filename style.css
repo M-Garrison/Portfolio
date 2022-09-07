@@ -26,8 +26,12 @@
     margin: 0 auto;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #smallText {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 @media screen and (max-width: 900px){
